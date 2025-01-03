@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>suep_photo/bridge.jpg</file>
+        <file>suep_photo/canteen.jpg</file>
+        <file>suep_photo/canteen2.jpg</file>
+        <file>suep_photo/collegebuilding.jpg</file>
+        <file>suep_photo/entrance.jpg</file>
+        <file>suep_photo/jintianweidi.jpg</file>
+        <file>suep_photo/library.jpg</file>
+        <file>suep_photo/map.jpg</file>
+        <file>suep_photo/playground.jpg</file>
+        <file>suep_photo/redhouse.jpg</file>
+        <file>suep_photo/teaching_building.jpg</file>
+        <file>suep_photo/dorm2.jpg</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>suep_photo/gym.jpg</file>
+    </qresource>
+</RCC>

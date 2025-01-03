@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>518</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>华文新魏</family>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>导游系统20231795</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/new/prefix1/suep_photo/library.jpg);
+
+background-repeat: no-repeat; /* 禁止重复 */
+background-position: center; /* 图片居中 */
+background-size: cover; /* 让图片充满窗口，并保持宽高比 */
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>70</y>
+      <width>511</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文楷体</family>
+      <pointsize>40</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;
+color: yellow; 
+</string>
+    </property>
+    <property name="text">
+     <string>SUEP校园导游程序</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>150</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文彩云</family>
+      <pointsize>35</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: qradialgradient(
+    spread: pad, 
+    cx: 0.5, cy: 0.5, radius: 0.7, 
+    fx: 0.5, fy: 0.5, 
+    stop: 0 rgba(255, 255, 200, 255),  /* 中心浅黄色 */
+    stop: 0.4 rgba(255, 204, 102, 200), /* 浅橙色过渡 */
+    stop: 0.7 rgba(255, 102, 102, 150), /* 淡红色 */
+    stop: 1 rgba(255, 255, 255, 0)      /* 边界完全透明 */
+);
+border-style: hidden
+</string>
+    </property>
+    <property name="text">
+     <string>启动</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
